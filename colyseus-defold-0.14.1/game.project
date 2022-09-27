@@ -1,0 +1,27 @@
+[project]
+title = Colyseus Defold Client
+version = 0.14
+dependencies = https://github.com/britzl/deftest/archive/master.zip,https://github.com/defold/extension-websocket/archive/master.zip
+
+[bootstrap]
+main_collection = /example/main.collectionc
+
+[input]
+use_accelerometer = 0
+
+[display]
+width = 1280
+height = 720
+
+[script]
+shared_state = 1
+
+[library]
+include_dirs = colyseus
+
+[physics]
+scale = 0.02
+
+[facebook]
+appid = 353169041992501
+

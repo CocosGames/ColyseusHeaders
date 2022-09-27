@@ -1,0 +1,16 @@
+[bootstrap]
+main_collection = /examples/websocket.collectionc
+
+[script]
+shared_state = 1
+
+[display]
+width = 640
+height = 960
+
+[project]
+title = extension-websocket
+_dependencies = https://github.com/GameAnalytics/defold-openssl/archive/1.0.0.zip
+
+[library]
+include_dirs = websocket
